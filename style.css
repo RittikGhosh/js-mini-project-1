@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto Slab', serif;
+}
+
+.heading {
+    color: white;
+    position: relative;
+    top: 4rem;
+    left: 3rem;
+    margin: 0px;
+}
+#select{
+    color: white;
+    position: relative;
+    top: 5rem;
+    left: 3rem;
+    border-radius: 5px;
+}
+
+#button {
+    background-color: white;
+    margin: 5px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    top: 8rem;
+    left: 3rem;
+    padding: 10px 40px 10px 40px;
+}
+
+
+#container {
+    color: white;
+    height: 170px;
+    width: 400px;
+    position: relative;
+    top: 7rem;
+    left: 3rem;
+}
+
+.subcontainer{
+    height:40px;
+    border: 2px solid white ;
+    border-radius: 2px;
+    margin: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.id{
+    padding: 5px;
+}
+.name{
+    padding: 5px;
+}
+.profession{
+    padding: 5px;
+}
+.age{
+    padding: 5px;
+}
